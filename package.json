@@ -1,7 +1,7 @@
 {
   "name": "vendas-online",
   "version": "0.0.0",
-  "homepage": "https://github.com/AlissonAndrade/vendas-online.git",
+  "homepage": "https://alissonandrade.github.io/vendas-online",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
