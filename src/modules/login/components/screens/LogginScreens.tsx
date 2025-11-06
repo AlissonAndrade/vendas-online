@@ -13,11 +13,11 @@ const LogginScreens = () => {
     return (
         
             <div>
-                <BackgroundImage src="./vendas-online/public/background.png"/>
+                <BackgroundImage src={`${process.env.PUBLIC_URL}/vendas-online/public/background.png}`}/>
                 <Body/>
                 <ContentLoggin>
                     <LimitLoggin>
-                        <LogginImage src="./vendas-online/public/luffynho.png"/>
+                        <LogginImage src="vendas-online/public/luffynho.png"/>
                         <Input title="USUÁRIO"/>
                         <Input title="SENHA"/>
                     </LimitLoggin>
