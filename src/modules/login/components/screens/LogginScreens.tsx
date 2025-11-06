@@ -17,7 +17,7 @@ const LogginScreens = () => {
                 <Body/>
                 <ContentLoggin>
                     <LimitLoggin>
-                        <LogginImage src="./public/luffynho.png"/>
+                        <LogginImage src="./luffynho.png"/>
                         <Input title="USUÁRIO"/>
                         <Input title="SENHA"/>
                     </LimitLoggin>
