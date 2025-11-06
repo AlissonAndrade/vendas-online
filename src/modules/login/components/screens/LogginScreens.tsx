@@ -6,7 +6,7 @@ import {
     LimitLoggin } 
 from "../styles/LogginStyles";
 
-import Input from 'C:/Users/Renan/OneDrive/Desktop/PROJETOS/vendas-online/vendas-online/src/shared/inputs/input/input.tsx';
+import Input from '../../../../../src/shared/inputs/input/input.tsx';
 
 const LogginScreens = () => {
 
