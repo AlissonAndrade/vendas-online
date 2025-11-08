@@ -1,5 +1,6 @@
 import type { InputProps as InputPropsAntd } from 'antd/es/input';
 import InputAntd from 'antd/es/input';
+
 import { BoxInput, TitleInput } from './input-style';
 
 interface InputProps extends InputPropsAntd{

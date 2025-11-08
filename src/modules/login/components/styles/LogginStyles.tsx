@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { Typography } from "antd";
+
+const { Text, Title } = Typography;
 
 export const Body = styled.body`
     margin: 0px;
@@ -33,9 +36,14 @@ export const ContentLoggin = styled.div`
 export const LogginImage = styled.img`
     height: 300px;
     width: 300px;
-    padding: 0 100px;
     margin-bottom: 10px;
+    display: flex;
+    align-self: center;
     `;
+
+export const Loginlog = styled(Title)`
+    color: blue;
+`;
 
 export const LimitLoggin = styled.div`
     width: 100%;
@@ -43,4 +51,5 @@ export const LimitLoggin = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     `;
