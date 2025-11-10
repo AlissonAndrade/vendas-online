@@ -1,12 +1,7 @@
 import styled from "styled-components";
 import { Typography } from "antd";
 
-const { Text, Title } = Typography;
-
-export const Body = styled.body`
-    margin: 0px;
-    padding: 0px;
-    `;
+const { Title } = Typography;
 
 export const BackgroundImage = styled.img`
     position: relative;
@@ -36,7 +31,6 @@ export const ContentLoggin = styled.div`
 export const LogginImage = styled.img`
     height: 300px;
     width: 300px;
-    margin-bottom: 10px;
     display: flex;
     align-self: center;
     `;
